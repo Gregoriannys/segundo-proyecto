@@ -13,7 +13,7 @@ function App() {
         <p>Elige un color para transformar la pantalla:</p>
         
         <div className="botones-box">
-          {/* Añadimos una nueva prop llamada "texto" con el nombre en español */}
+         
           <Boton color="lightblue" texto="Azul Claro" cambiarColor={setColor} />
           <Boton color="lightgreen" texto="Verde Claro" cambiarColor={setColor} />
           <Boton color="lightpink" texto="Rosado Claro" cambiarColor={setColor} />
